@@ -1,0 +1,42 @@
+.body {
+    background-color: yellow;
+}
+.h1 {
+background-color: cornsilk;    
+color: blue;
+font-size: 50px;
+}
+
+#showSketch {
+    float: right;
+    margin-right: 430px;
+}
+
+canvas {
+    border-radius:20px;
+    border:5px solid yellow;
+    animation-name: border;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes border {
+    from{box-shadow:1px 1px 38px lightyellow};
+    to{box-shadow:1px 1px 38px lightskyblue};
+}
+
+p {
+    font-size: 10px;
+    padding-top: 25px;
+}
+
+#label {
+    font-size: 20px;
+    float: left;
+    margin-left: 430px;
+}
+
+#confidence {
+    font-size: 20px;
+}
